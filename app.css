@@ -1,3 +1,4 @@
+/* Modal Script */
 .modal {
     display: none;
     position: fixed; 
@@ -180,6 +181,97 @@ h6 {
     object-fit: contain;
 }
 
+/* Small Screens */
+@media (min-width: 500px) {
+    #carouselExampleIndicators {
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 400px;
+    }
+
+    .carousel-inner {
+        height: 400px;
+    }
+
+    .w-100 {
+        height: 400px;
+    }
+
+    #militaria-cards {
+        margin-top: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .index-top-card {
+        width: 350px;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    #top-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 300px;
+    }
+    .top-card-title {
+        text-align: center;
+    }
+    .index-card {
+        flex: 1 300px;
+        max-width: 400px;
+    }
+
+    #index-card:nth-of-type(3) {
+        flex: 2 300px;
+        max-width: 400px;
+    }
+    h6 {
+        font-size: 22px;
+    }
+
+}
+
+/* 1080p Screens */
+@media (min-width: 1200px) {
+    #carouselExampleIndicators {
+        margin-left: 200px;
+        margin-right: 200px;
+        height: 400px;
+    }
+    .carousel-inner {
+        height: 400px;
+    }
+    .w-100 {
+        height: 400px;
+    }
+    #militaria-cards {
+        margin-top: 20px;
+        display: flex;
+        flex: 600px;
+        flex-flow: row wrap ;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .index-card {
+        flex: 1 300px;
+    }
+    .index-card {
+        flex: 1 290px;
+        max-width: 400px;
+    }
+
+    #index-card:nth-of-type(3) {
+        flex: 2 290px;
+        max-width: 400px;
+    }
+    h6 {
+        font-size: 25px;
+    }
+}
+
 /* Smaller Devices */
 @media (max-width: 360px) {
     .militaria-body {
@@ -198,4 +290,3 @@ h6 {
         padding-top: 6.5rem;
     }
 }
-
