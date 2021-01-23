@@ -297,3 +297,47 @@ h6 {
         padding-top: 6.5rem;
     }
 }
+  
+#militaria-cards .card-hover:hover{
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    opacity: 0.7;
+    -webkit-transform:scale(1.02);
+    -moz-transform:scale(1.02);
+    -ms-transform:scale(1.02);
+    -o-transform:scale(1.02);
+    transform:scale(1.02);
+}
+
+#top-card .card-hover:hover{
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    opacity: 0.7;
+    -webkit-transform:scale(1.02);
+    -moz-transform:scale(1.02);
+    -ms-transform:scale(1.02);
+    -o-transform:scale(1.02);
+    transform:scale(1.02);
+}
+
+#active .active:hover {
+    transition: all 0.2s ease-in;
+    opacity: 0.9;
+    -webkit-transform:scale(1.02);
+    -moz-transform:scale(1.02);
+    -ms-transform:scale(1.02);
+    -o-transform:scale(1.02);
+    transform:scale(1.02);
+}
