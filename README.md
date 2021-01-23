@@ -1,6 +1,5 @@
 # shiftybloke.github.io
 
-Website Plans:
 Test all pages for working on:
 - Desktop
 - Tablet
