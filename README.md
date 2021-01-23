@@ -14,6 +14,8 @@ Militaria Page:
 - Create a sidebar for choosing categories of products (filtering).
 - Update page to work well in Desktop Version.
 - Make the page more responsive to user action.
+- Add a photo slider, allowing for more than one image per product.
+- Get feedback relating to what the client wants to display on each product.
 
 Shows Page:
 - Get information from client regarding content.
