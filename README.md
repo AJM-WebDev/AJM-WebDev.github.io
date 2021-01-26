@@ -24,3 +24,6 @@ Shows Page:
 About Page:
 - Get information from client regarding content.
 
+https://getbootstrap.com/docs/4.0/components/modal/
+
+https://bootstrapious.com/p/bootstrap-sidebar
